@@ -242,14 +242,3 @@ This Challenge is graded based on the following criteria:
 * Repository contains multiple descriptive commit messages.
 
 * Repository contains high-quality README file with description, screenshot, and link to the deployed application.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
