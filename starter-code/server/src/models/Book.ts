@@ -1,3 +1,5 @@
+// Module-18-The-Solarium/server/src/models/Book.ts
+
 import { Schema, type Document } from 'mongoose';
 
 export interface BookDocument extends Document {

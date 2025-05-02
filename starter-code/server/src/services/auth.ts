@@ -1,3 +1,5 @@
+// Module-18-The-Solarium/server/src/services/auth.ts
+
 import type { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 

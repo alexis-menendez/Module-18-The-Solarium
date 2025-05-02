@@ -1,3 +1,5 @@
+// Module-18-The-Solarium/server/src/models/User.ts
+
 import { Schema, model, type Document } from 'mongoose';
 import bcrypt from 'bcrypt';
 
