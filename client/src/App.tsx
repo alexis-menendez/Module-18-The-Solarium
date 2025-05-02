@@ -1,3 +1,5 @@
+// Module-18-The-Solarium/client/src/App.tsx
+
 import './App.css';
 import { Outlet } from 'react-router-dom';
 

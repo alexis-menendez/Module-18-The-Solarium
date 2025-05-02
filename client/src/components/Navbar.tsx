@@ -1,3 +1,5 @@
+// Module-18-The-Solarium/client/src/components/Navbar.tsx
+
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, Nav, Container, Modal, Tab } from 'react-bootstrap';
