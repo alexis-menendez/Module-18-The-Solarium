@@ -36,7 +36,7 @@ Users will be able to:
 
 ## Walkthrough Video
 
-Per the requirements for this assignment, I've included the link to a video of me demonstrating the functionality of the application and all of the acceptance criteria being met:
+Per the requirements for this assignment, I've included the link to a video of me demonstrating the functionality of the application:
 
 **PUT LINK HERE**
 
