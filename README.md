@@ -1,4 +1,4 @@
-# The-Solarium
+# The Solarium
 
 ```md
 ⚠️ Work In Progress
