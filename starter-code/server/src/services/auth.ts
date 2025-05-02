@@ -1,5 +1,3 @@
-// Module-18-The-Solarium/server/src/services/auth.ts
-
 import type { Request, Response, NextFunction } from 'express';
 import jwt from 'jsonwebtoken';
 
@@ -38,28 +36,4 @@ export const signToken = (username: string, email: string, _id: unknown) => {
   const secretKey = process.env.JWT_SECRET_KEY || '';
 
   return jwt.sign(payload, secretKey, { expiresIn: '1h' });
-};
-
-// Used in Apollo Server context
-export const authMiddleware = ({ req }: { req: Request }) => {
-  const authHeader = req.headers.authorization || '';
-  let token = '';
-
-  if (authHeader && authHeader.startsWith('Bearer ')) {
-    token = authHeader.split(' ')[1];
-  }
-
-  const secretKey = process.env.JWT_SECRET_KEY || '';
-
-  if (!token) {
-    return { user: null };
-  }
-
-  try {
-    const decoded = jwt.verify(token, secretKey) as JwtPayload;
-    return { user: decoded };
-  } catch (err) {
-    console.error('Token verification failed:', err);
-    return { user: null };
-  }
 };

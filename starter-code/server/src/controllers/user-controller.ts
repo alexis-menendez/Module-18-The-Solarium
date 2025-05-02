@@ -1,5 +1,3 @@
-// Module-18-The-Solarium/server/src/controllers/user-controller.ts
-
 import type { Request, Response } from 'express';
 // import user model
 import User from '../models/User.js';
