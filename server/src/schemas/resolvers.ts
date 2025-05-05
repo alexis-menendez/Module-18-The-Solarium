@@ -1,6 +1,6 @@
 // Module-18-The-Solarium/server/src/schemas/resolvers.ts
 
-import { User } from '../models/User.js';
+import User from '../models/User.js'; 
 import { signToken } from '../services/auth.js';
 import { GraphQLError } from 'graphql';
 

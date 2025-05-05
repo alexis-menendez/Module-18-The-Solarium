@@ -1,5 +1,7 @@
 // Module-18-The-Solarium/server/src/server.ts
 
+import dotenv from 'dotenv'; dotenv.config();
+
 import express from 'express';
 import path from 'node:path';
 import { ApolloServer } from '@apollo/server';
