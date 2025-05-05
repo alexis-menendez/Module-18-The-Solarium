@@ -66,7 +66,7 @@ While the core functionality is in place, several enhancements are planned to el
 * Interactive Components: Refine modals, buttons, and forms to feel more elegant and responsive, including smooth transitions and subtle effects.
 * Thematic Fonts and Colors: Customize typography with serif and handwritten-style fonts for a literary atmosphere, and incorporate a consistent color palette (warm yellows, cream, soft brown, and sky blue).
 
-### UI/UX & Styling Goals
+### Feature Enhancements
 
 * Book Annotations: Allow users to add notes or reactions to saved books.
 * Advanced Search Filters: Enable sorting by author, publication date, or category.
