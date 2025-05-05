@@ -3,18 +3,17 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
-"scripts": {
-  "start": "node server/server.js",
-  "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
-  "install-all": "cd server && npm install && cd ../client && npm install",
-  "build-all": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
-  "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
-  "rebuild": "npm install && npm run install-all && npm run build-all",
-  "start:dev": "npm install && npm run install-all && npm run build-all && npm run dev",
-
-  "render-build": "npm install && npm run install-all && npm run build-all",
-  "render-start": "concurrently \"node server/dist/server.js\" \"serve -s client/dist -l 3000\""
-},
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
+    "install-all": "cd server && npm install && cd ../client && npm install",
+    "build-all": "concurrently \"cd server && npm run build\" \"cd client && npm run build\"",
+    "dev": "concurrently \"cd server && npm run watch\" \"cd client && npm run dev\"",
+    "rebuild": "npm install && npm run install-all && npm run build-all",
+    "start:dev": "npm install && npm run install-all && npm run build-all && npm run dev",
+    "render-build": "npm install && npm run install-all && npm run build-all",
+    "render-start": "concurrently \"node server/dist/server.js\" \"serve -s client/dist -l 3000\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -33,6 +32,7 @@
     "@apollo/server": "^4.12.0",
     "body-parser": "^2.2.0",
     "cors": "^2.8.5",
-    "graphql": "^16.11.0"
+    "graphql": "^16.11.0",
+    "serve": "^14.2.4"
   }
 }
