@@ -12,7 +12,7 @@
     "rebuild": "npm install && npm run install-all && npm run build-all",
     "start:dev": "npm install && npm run install-all && npm run build-all && npm run dev",
     "render-build": "npm install && npm run install-all && npm run build-all",
-    "render-start": "concurrently \"node server/dist/server.js\" \"serve -s client/dist -l 3000\""
+    "render-start": "node server/dist/server.js"
   },
   "keywords": [],
   "author": "",
