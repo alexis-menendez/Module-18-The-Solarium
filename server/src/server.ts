@@ -44,10 +44,12 @@ app.use(
 
 // Serve static assets if in production
 if (process.env.NODE_ENV === 'production') {
-  app.use(express.static(path.join(__dirname, '../client/dist')));
+  const clientPath = path.resolve(__dirname, '../../client/dist');
+
+  app.use(express.static(clientPath));
 
   app.get('*', (_req, res) => {
-    res.sendFile(path.join(__dirname, '../client/dist', 'index.html'));
+    res.sendFile(path.join(clientPath, 'index.html'));
   });
 }
 
