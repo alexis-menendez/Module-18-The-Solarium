@@ -30,18 +30,9 @@ Users will be able to:
 
 ## Table of Contents
 
-- [Walkthrough Video](#walkthrough-video)
 - [Live Deployment](#live-deployment)
 - [Future Development](#future-development)
 - [Contact](#contact)
-
----
-
-## Walkthrough Video
-
-Per the requirements for this assignment, I've included the link to a video of me demonstrating the functionality of the application:
-
-**PUT LINK HERE**
 
 ---
 
